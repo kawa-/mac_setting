@@ -1,13 +1,24 @@
 # Mac OS(10.6 ~) 自分用設定
 
 ## インストールしておくもの:
+* Firefox
+* Google Japanese Input
 * mi.app(ミミカキエディット)
 * iTerm2
+* DrasticInputSourceStatus 改造版
 * BetterTouchTool
 * KeyRemap4MacBook
 * PCKeyboardHack
 
 ## 操作手順
+
+### Firefox
+Sync機能を使って、addonなど一括同期。その後の設定は面倒だけどやらざるを得ない。  
+また、アドレスバーで、検索に「tab」と打ち、browser.search.openintab をtrueに。
+
+### DrasticInputSourceStatus 改造版
+自分が作ったものをインストール。Google Japanese Inputをインストールしてから設定しないと若干面倒。
+- Start At Login, Hide icon in Dock にチェック
 
 ### iTerm2
 Preferences->Keys->Global Shortcut Keysで、Command+[ -> Previous Tab, Command+] -> Next Tab に割り当てる。
