@@ -2,11 +2,15 @@
 
 ## インストールしておくもの:
 * mi.app(ミミカキエディット)
+* iTerm2
 * BetterTouchTool
 * KeyRemap4MacBook
 * PCKeyboardHack
 
 ## 操作手順
+
+### iTerm2
+Preferences->Keys->Global Shortcut Keysで、Command+[ -> Previous Tab, Command+] -> Next Tab に割り当てる。
 
 ### BetterTouchTool
 - アプリを開いて、このディレクトリに保存されている、better_touch_tool.bkをimport
@@ -24,4 +28,4 @@
 添付した画像のように、システム環境設定→キーボード→修飾キー→CapsLockをアクション無しに設定。
 
 ### WordService
-/Library/Service に(~/Library/Service ではない！ルートのほう)、添付のWordService.serviceを移動して、ログアウトしてログイン。その後、添付した画像のように、システム環境設定→キーボード→キーボードショートカット→サービスでLong DateとTimeを割り当てる。
+/Library/Service に(~/Library/Service ではない！ルートのほう)、添付のWordService.serviceを移動して(/Library/ServiceのServiceディレクトリが無ければ作る)、ログアウトしてログイン。その後、添付した画像のように、システム環境設定→キーボード→キーボードショートカット→サービスでLong DateとTimeを割り当てる。
