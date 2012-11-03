@@ -1,94 +1,99 @@
 <?xml version="1.0"?>
 <root>
-  <item>
-    <name>EISUU to TOGGLE_EISUU_KANA</name>
-    <identifier>private.EISUU to TOGGLE_EISUU_KANA</identifier>
-    <autogen>--KeyToKey-- KeyCode::JIS_EISUU, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
-  </item>
-  <!--
-  <autogen>--KeyToKey-- KeyCode::JIS_EISUU, KeyCode::VK_JIS_TOGGLE_EISUU_KANA,
-	KeyCode::KEY_8, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L</autogen>
-	-->
-  
-  <item>
-    <name>KANA to FN</name>
-    <identifier>private.KANA to FN</identifier>
-    <autogen>--KeyToKey-- KeyCode::JIS_KANA, KeyCode::FN</autogen>
-  </item>
-  
-  <item>
-  	<name>KANA+QWERTYUIOP_to_CURSOR</name>
-  	<identifier>private.KANA_QWERTYUIOP_to_CURSOR</identifier>
-  	<autogen>--KeyToKey-- KeyCode::Q, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
-  	<autogen>--KeyToKey-- KeyCode::W,  ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
-  	<autogen>--KeyToKey-- KeyCode::E,  ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
-  	<autogen>--KeyToKey-- KeyCode::R,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
-  	<autogen>--KeyToKey-- KeyCode::T,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
-  	<autogen>--KeyToKey-- KeyCode::Y,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
-  	<autogen>--KeyToKey-- KeyCode::U,  ModifierFlag::FN, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
-  	<autogen>--KeyToKey-- KeyCode::I,  ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
-  	<autogen>--KeyToKey-- KeyCode::O,  ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
-  	<autogen>--KeyToKey-- KeyCode::P,  ModifierFlag::FN, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
-	</item>
-	
-	 <item>
-  	<name>KANA+ASDFGHJKLSEMICOLON_to_DIGITS</name>
-	  <identifier>private.KANA+ASDFGHJKLSEMICOLON_to_DIGITS</identifier>
-  	<autogen>--KeyToKey-- KeyCode::A, ModifierFlag::FN, KeyCode::KEY_1</autogen>
-  	<autogen>--KeyToKey-- KeyCode::S, ModifierFlag::FN, KeyCode::KEY_2</autogen>
-  	<autogen>--KeyToKey-- KeyCode::D, ModifierFlag::FN, KeyCode::KEY_3</autogen>
-  	<autogen>--KeyToKey-- KeyCode::F, ModifierFlag::FN, KeyCode::KEY_4</autogen>
-  	<autogen>--KeyToKey-- KeyCode::G, ModifierFlag::FN, KeyCode::KEY_5</autogen>
-  	<autogen>--KeyToKey-- KeyCode::H, ModifierFlag::FN, KeyCode::KEY_6</autogen>
-  	<autogen>--KeyToKey-- KeyCode::J, ModifierFlag::FN, KeyCode::KEY_7</autogen>
-  	<autogen>--KeyToKey-- KeyCode::K, ModifierFlag::FN, KeyCode::KEY_8</autogen>
-  	<autogen>--KeyToKey-- KeyCode::L, ModifierFlag::FN, KeyCode::KEY_9</autogen>
-  	<autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::FN, KeyCode::KEY_0</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + SPACE to DELETE and FORWARD_DELETE</name>
-  	<identifier>private.FN + SPACE to DELETE and FORWARD_DELETE</identifier>
-	  <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::FORWARD_DELETE</autogen>
-  	<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::FN, KeyCode::DELETE</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + N to OPTION+CONTROL+COMMAND+T for TimeStamp( SoftWare: WordService)</name>
-  	<identifier>private.KANA + N to OPTION+CONTROL+COMMAND+T</identifier>
-	  <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::FN, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + M to OPTION+CONTROL+COMMAND+D for TimeStamp( SoftWare: WordService)</name>
-  	<identifier>private.KANA + M to OPTION+CONTROL+COMMAND+D</identifier>
-	  <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::FN, KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L  | ModifierFlag::OPTION_L</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + DOT to "->" (for PHP)</name>
-  	<identifier>private.KANA + DOT to "->" (for PHP)</identifier>
-	  <autogen>--KeyToKey-- KeyCode::DOT, ModifierFlag::FN, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + SLASH to BACKSLASH (for Programming)</name>
-  	<identifier>private.KANA + SLASH to BACKSLASH (for Programming)</identifier>
-	  <autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::FN, KeyCode::VK_JIS_BACKSLASH</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + MINUS to "-----"</name>
-  	<identifier>private.KANA + MINUS to "-----" </identifier>
-	  <autogen>--KeyToKey-- KeyCode::MINUS, ModifierFlag::FN, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS</autogen>
-	</item>
-	
-	<item>
-  	<name>KANA + b to "br"</name>
-  	<identifier>private.KANA + b to "br" </identifier>
-	  <autogen>--KeyToKey-- KeyCode::B, ModifierFlag::FN, KeyCode::COMMA, ModifierFlag::SHIFT_L, KeyCode::B, KeyCode::R, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
-	</item>
-	
-	
-	
+<item>
+<name>EISUU to TOGGLE_EISUU_KANA</name>
+<identifier>private.EISUU to TOGGLE_EISUU_KANA</identifier>
+<autogen>--KeyToKey-- KeyCode::JIS_EISUU, KeyCode::VK_JIS_TOGGLE_EISUU_KANA</autogen>
+</item>
+<!--
+<autogen>--KeyToKey-- KeyCode::JIS_EISUU, KeyCode::VK_JIS_TOGGLE_EISUU_KANA,
+KeyCode::KEY_8, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L</autogen>
+-->
+
+<item>
+<name>KANA to FN</name>
+<identifier>private.KANA to FN</identifier>
+<autogen>--KeyToKey-- KeyCode::JIS_KANA, KeyCode::FN</autogen>
+</item>
+
+<item>
+<name>KANA+ASDFGHJKLSEMICOLON_to_CURSOR</name>
+<identifier>private.KANA_ASDFGHJKLSEMICOLON_to_CURSOR</identifier>
+
+<autogen>--KeyToKey-- KeyCode::A, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+
+<autogen>--KeyToKey-- KeyCode::S,  ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L</autogen>
+<autogen>--KeyToKey-- KeyCode::D,  ModifierFlag::FN, KeyCode::CURSOR_DOWN, ModifierFlag::COMMAND_L</autogen>
+<autogen>--KeyToKey-- KeyCode::F,  ModifierFlag::FN, KeyCode::CURSOR_UP, ModifierFlag::COMMAND_L</autogen>
+<autogen>--KeyToKey-- KeyCode::G,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L</autogen>
+
+<autogen>--KeyToKey-- KeyCode::H,  ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
+<autogen>--KeyToKey-- KeyCode::J,  ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
+<autogen>--KeyToKey-- KeyCode::K,  ModifierFlag::FN, KeyCode::CURSOR_UP</autogen>
+<autogen>--KeyToKey-- KeyCode::L,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT</autogen>
+
+<autogen>--KeyToKey-- KeyCode::SEMICOLON,  ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+
+</item>
+
+<item>
+<name>KANA+WERTYUIOPJIS_ATMARK_to_DIGITS</name>
+<identifier>private.KANA+WERTYUIOPJIS_ATMARK_to_DIGITS</identifier>
+<autogen>--KeyToKey-- KeyCode::W, ModifierFlag::FN, KeyCode::KEY_1</autogen>
+<autogen>--KeyToKey-- KeyCode::E, ModifierFlag::FN, KeyCode::KEY_2</autogen>
+<autogen>--KeyToKey-- KeyCode::R, ModifierFlag::FN, KeyCode::KEY_3</autogen>
+<autogen>--KeyToKey-- KeyCode::T, ModifierFlag::FN, KeyCode::KEY_4</autogen>
+<autogen>--KeyToKey-- KeyCode::Y, ModifierFlag::FN, KeyCode::KEY_5</autogen>
+<autogen>--KeyToKey-- KeyCode::U, ModifierFlag::FN, KeyCode::KEY_6</autogen>
+<autogen>--KeyToKey-- KeyCode::I, ModifierFlag::FN, KeyCode::KEY_7</autogen>
+<autogen>--KeyToKey-- KeyCode::O, ModifierFlag::FN, KeyCode::KEY_8</autogen>
+<autogen>--KeyToKey-- KeyCode::P, ModifierFlag::FN, KeyCode::KEY_9</autogen>
+<autogen>--KeyToKey-- KeyCode::JIS_ATMARK, ModifierFlag::FN, KeyCode::KEY_0</autogen>
+</item>
+
+<item>
+<name>KANA + SPACE to DELETE and FORWARD_DELETE</name>
+<identifier>private.FN + SPACE to DELETE and FORWARD_DELETE</identifier>
+<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::FN | ModifierFlag::SHIFT_L, KeyCode::FORWARD_DELETE</autogen>
+<autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::FN, KeyCode::DELETE</autogen>
+</item>
+
+<item>
+<name>KANA + N to OPTION+CONTROL+COMMAND+T for TimeStamp( SoftWare: WordService)</name>
+<identifier>private.KANA + N to OPTION+CONTROL+COMMAND+T</identifier>
+<autogen>--KeyToKey-- KeyCode::N, ModifierFlag::FN, KeyCode::T, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L | ModifierFlag::OPTION_L</autogen>
+</item>
+
+<item>
+<name>KANA + M to OPTION+CONTROL+COMMAND+D for TimeStamp( SoftWare: WordService)</name>
+<identifier>private.KANA + M to OPTION+CONTROL+COMMAND+D</identifier>
+<autogen>--KeyToKey-- KeyCode::M, ModifierFlag::FN, KeyCode::D, ModifierFlag::COMMAND_L | ModifierFlag::CONTROL_L  | ModifierFlag::OPTION_L</autogen>
+</item>
+
+<item>
+<name>KANA + DOT to "->" (for PHP)</name>
+<identifier>private.KANA + DOT to "->" (for PHP)</identifier>
+<autogen>--KeyToKey-- KeyCode::DOT, ModifierFlag::FN, KeyCode::MINUS, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+</item>
+
+<item>
+<name>KANA + SLASH to BACKSLASH (for Programming)</name>
+<identifier>private.KANA + SLASH to BACKSLASH (for Programming)</identifier>
+<autogen>--KeyToKey-- KeyCode::SLASH, ModifierFlag::FN, KeyCode::VK_JIS_BACKSLASH</autogen>
+</item>
+
+<item>
+<name>KANA + MINUS to "-----"</name>
+<identifier>private.KANA + MINUS to "-----" </identifier>
+<autogen>--KeyToKey-- KeyCode::MINUS, ModifierFlag::FN, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS, KeyCode::MINUS</autogen>
+</item>
+
+<item>
+<name>KANA + b to "br"</name>
+<identifier>private.KANA + b to "br" </identifier>
+<autogen>--KeyToKey-- KeyCode::B, ModifierFlag::FN, KeyCode::COMMA, ModifierFlag::SHIFT_L, KeyCode::B, KeyCode::R, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+</item>
+
+
+
 </root>
