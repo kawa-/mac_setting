@@ -40,3 +40,6 @@ Preferences->Keys->Global Shortcut Keysで、Command+[ -> Previous Tab, Command+
 
 ### WordService
 /Library/Service に(~/Library/Service ではない！ルートのほう)、添付のWordService.serviceを移動して(/Library/ServiceのServiceディレクトリが無ければ作る)、ログアウトしてログイン。その後、添付した画像のように、システム環境設定→キーボード→キーボードショートカット→サービスでLong DateとTimeを割り当てる。
+
+### PHP
+php.iniを該当箇所に置く。パーミションは777でいいでしょう。。。ローカルだし。
