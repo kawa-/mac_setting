@@ -14,7 +14,7 @@
 
 ### Firefox
 Sync機能を使って、addonなど一括同期。その後の設定は面倒だけどやらざるを得ない。  
-また、アドレスバーで、検索に「tab」と打ち、browser.search.openintab をtrueに。
+また、アドレスバーに「about:config」と打鍵し、browser.search.openintab をtrueに。
 
 ### DrasticInputSourceStatus 改造版
 自分が作ったものをインストール。Google Japanese Inputをインストールしてから設定しないと若干面倒。
