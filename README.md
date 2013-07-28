@@ -43,3 +43,6 @@ Preferences->Keys->Global Shortcut Keysで、Command+[ -> Previous Tab, Command+
 
 ### PHP
 php.iniを該当箇所に置く。パーミションは777でいいでしょう。。。ローカルだし。
+
+### Netbeans
+このディレクトリにある、kawa_netbeans_settings_*.zipを、Netbeansアプリを開いて、「環境設定」->下の方の「インポート」を選択して、この.zipを選択。
